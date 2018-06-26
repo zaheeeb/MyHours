@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="27" tests="2" failures="0" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="2" failures="0" errors="0" time="27" timestamp="2018-06-26 17:58:39" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_175837"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_175837\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="97480f2a-4bc8-4249-9b1b-c37eaa0b0461"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login_TestCase" classname="Test Cases/Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-26 17:58:40 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TestCase: Test Cases/Login/Login_TestCase
+
+2018-06-26 17:58:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 17:58:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 17:58:45 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-26 17:59:00 - [MESSAGE][PASSED] - Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-26 17:59:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Login_Object_Repository/input_email' is visible
+
+2018-06-26 17:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Object_Repository/input_email' is visible
+
+2018-06-26 17:59:00 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/Login_Object_Repository/input_email'
+
+2018-06-26 17:59:00 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/Login_Object_Repository/input_email'
+
+2018-06-26 17:59:00 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 17:59:00 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 17:59:00 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 17:59:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 17:59:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Logout/Logout_TestCase' successfully
+
+2018-06-26 17:59:01 - [TEST_CASE][PASSED] - Test Cases/Logout/Logout_TestCase: Test Cases/Logout/Logout_TestCase
+
+2018-06-26 17:59:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout_Object_Repository/a_Zahir Babur' is clicked on
+
+2018-06-26 17:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout_Object_Repository/a_Zahir Babur' is clicked on
+
+2018-06-26 17:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Logout_Object_Repository/a_Sign out' is clicked on
+
+2018-06-26 17:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout_Object_Repository/a_Sign out' is clicked on
+
+2018-06-26 17:59:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-26 17:59:06 - [MESSAGE][PASSED] - Browser is closed
+
+2018-06-26 17:59:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Logout/Logout_TestCase' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TrackActivity/TrackActivity_TestCase" classname="Test Cases/TrackActivity/TrackActivity_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-26 17:59:06 - [TEST_CASE][PASSED] - Test Cases/TrackActivity/TrackActivity_TestCase: Test Cases/TrackActivity/TrackActivity_TestCase
+
+2018-06-26 17:59:07 - [TEST_STEP][PASSED] - Statement - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 17:58:39 - [TEST_SUITE][PASSED] - MyHours_TestSuite: Test Cases/TrackActivity/TrackActivity_TestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

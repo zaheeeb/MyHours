@@ -4,7 +4,7 @@
    <name>MyHours_TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-26T07:11:37</lastRun>
+   <lastRun>2018-06-26T17:58:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -39,15 +39,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5fbb2845-771e-4d69-8bb5-77c3218ed609</guid>
+      <guid>2e0900e8-98aa-4bfb-840e-f379195cba7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TrackActivity/TrackActivity_TestCase</testCaseId>
+      <testCaseId>Test Cases/TrackActivity/NewActivity_TestCase</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>eb392fad-e2e4-40c8-a3c4-aaaf506046c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Logout/Logout_TestCase</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-26 17:57:22,2018-06-26 17:57:38,15.794s,FAILED
+,,,,,,
+Test Cases/Login/Login_TestCase,Firefox 60.0,,2018-06-26 17:57:22,2018-06-26 17:57:37,15.073s,PASSED
+openBrowser,Firefox 60.0,,2018-06-26 17:57:23,2018-06-26 17:57:28,5.661s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-26 17:57:28,2018-06-26 17:57:34,5.120s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-06-26 17:57:34,2018-06-26 17:57:34,0.155s,PASSED
+setText,Firefox 60.0,,2018-06-26 17:57:34,2018-06-26 17:57:34,0.310s,PASSED
+setText,Firefox 60.0,,2018-06-26 17:57:34,2018-06-26 17:57:34,0.127s,PASSED
+sendKeys,Firefox 60.0,,2018-06-26 17:57:34,2018-06-26 17:57:34,0.189s,PASSED
+callTestCase,Firefox 60.0,,2018-06-26 17:57:34,2018-06-26 17:57:37,2.948s,PASSED
+,,,,,,
+Test Cases/TrackActivity/TrackActivity_TestCase,Firefox 60.0,Create an activity with customer's project.,2018-06-26 17:57:37,2018-06-26 17:57:37,0.130s,PASSED
+Statement - return null,Firefox 60.0,,2018-06-26 17:57:37,2018-06-26 17:57:37,0.001s,PASSED
+,,,,,,
+Test Cases/Logout/Logout_TestCase,Firefox 60.0,logsout from system,2018-06-26 17:57:37,2018-06-26 17:57:38,0.032s,FAILED
+click,Firefox 60.0,,2018-06-26 17:57:37,2018-06-26 17:57:37,0.014s,FAILED

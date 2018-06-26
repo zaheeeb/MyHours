@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Create an activity with customer's project.</description>
-   <name>TrackActivity_TestCase</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dc45db07-df9f-4823-8e65-e5b8c2dd909b</testCaseGuid>
-</TestCaseEntity>

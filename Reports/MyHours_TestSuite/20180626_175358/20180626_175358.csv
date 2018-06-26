@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Chrome 67.0.3396.87,,2018-06-26 17:53:59,2018-06-26 17:54:18,19.043s,FAILED
+,,,,,,
+Test Cases/Login/Login_TestCase,Chrome 67.0.3396.87,,2018-06-26 17:54:00,2018-06-26 17:54:18,18.302s,PASSED
+openBrowser,Chrome 67.0.3396.87,,2018-06-26 17:54:01,2018-06-26 17:54:04,3.631s,PASSED
+navigateToUrl,Chrome 67.0.3396.87,,2018-06-26 17:54:04,2018-06-26 17:54:14,9.802s,PASSED
+waitForElementVisible,Chrome 67.0.3396.87,,2018-06-26 17:54:14,2018-06-26 17:54:14,0.115s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-26 17:54:14,2018-06-26 17:54:15,0.495s,PASSED
+setText,Chrome 67.0.3396.87,,2018-06-26 17:54:15,2018-06-26 17:54:15,0.287s,PASSED
+sendKeys,Chrome 67.0.3396.87,,2018-06-26 17:54:15,2018-06-26 17:54:15,0.122s,PASSED
+callTestCase,Chrome 67.0.3396.87,,2018-06-26 17:54:15,2018-06-26 17:54:18,3.322s,PASSED
+,,,,,,
+Test Cases/TrackActivity/TrackActivity_TestCase,Chrome 67.0.3396.87,Create an activity with customer's project.,2018-06-26 17:54:18,2018-06-26 17:54:18,0.123s,PASSED
+Statement - return null,Chrome 67.0.3396.87,,2018-06-26 17:54:18,2018-06-26 17:54:18,0.000s,PASSED
+,,,,,,
+Test Cases/Logout/Logout_TestCase,Chrome 67.0.3396.87,logsout from system,2018-06-26 17:54:18,2018-06-26 17:54:18,0.037s,FAILED
+click,Chrome 67.0.3396.87,,2018-06-26 17:54:18,2018-06-26 17:54:18,0.021s,FAILED
