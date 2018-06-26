@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-26 06:32:37,2018-06-26 06:32:54,16.789s,PASSED
+,,,,,,
+Test Cases/Login/Login_TestCase,Firefox 60.0,,2018-06-26 06:32:38,2018-06-26 06:32:54,16.175s,PASSED
+openBrowser,Firefox 60.0,,2018-06-26 06:32:38,2018-06-26 06:32:44,5.641s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-26 06:32:44,2018-06-26 06:32:50,6.112s,PASSED
+setText,Firefox 60.0,,2018-06-26 06:32:50,2018-06-26 06:32:51,0.467s,PASSED
+setText,Firefox 60.0,,2018-06-26 06:32:51,2018-06-26 06:32:51,0.219s,PASSED
+sendKeys,Firefox 60.0,,2018-06-26 06:32:51,2018-06-26 06:32:51,0.099s,PASSED
+click,Firefox 60.0,,2018-06-26 06:32:51,2018-06-26 06:32:53,1.983s,PASSED
+click,Firefox 60.0,,2018-06-26 06:32:53,2018-06-26 06:32:53,0.540s,PASSED
+closeBrowser,Firefox 60.0,,2018-06-26 06:32:53,2018-06-26 06:32:54,0.424s,PASSED
