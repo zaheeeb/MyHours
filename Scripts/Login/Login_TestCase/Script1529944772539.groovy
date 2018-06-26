@@ -32,5 +32,3 @@ WebUI.setText(findTestObject('Login_Object_Repository/input_password'), varPassw
 
 WebUI.sendKeys(findTestObject('Login_Object_Repository/input_password'), Keys.chord(Keys.ENTER))
 
-not_run: WebUI.callTestCase(findTestCase('Logout/Logout_TestCase'), [:], FailureHandling.CONTINUE_ON_FAILURE)
-

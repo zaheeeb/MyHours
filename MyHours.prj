@@ -4,5 +4,5 @@
    <name>MyHours</name>
    <tag></tag>
    <UUID>df383215-9601-4b33-b9e9-66846e89e10f</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-26 18:17:45,2018-06-26 18:18:00,15.766s,FAILED
+,,,,,,
+Test Cases/Login/Login_TestCase,Firefox 60.0,,2018-06-26 18:17:45,2018-06-26 18:17:56,10.418s,PASSED
+openBrowser,Firefox 60.0,,2018-06-26 18:17:46,2018-06-26 18:17:51,5.605s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-26 18:17:51,2018-06-26 18:17:55,3.315s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-06-26 18:17:55,2018-06-26 18:17:55,0.253s,PASSED
+setText,Firefox 60.0,,2018-06-26 18:17:55,2018-06-26 18:17:55,0.348s,PASSED
+setText,Firefox 60.0,,2018-06-26 18:17:55,2018-06-26 18:17:55,0.230s,PASSED
+sendKeys,Firefox 60.0,,2018-06-26 18:17:55,2018-06-26 18:17:56,0.121s,PASSED
+callTestCase,Firefox 60.0,,2018-06-26 18:17:56,2018-06-26 18:17:56,0.002s,NOT_RUN
+,,,,,,
+Test Cases/TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-26 18:17:56,2018-06-26 18:18:00,4.410s,FAILED
+openBrowser,Firefox 60.0,,2018-06-26 18:17:56,2018-06-26 18:17:56,0.002s,NOT_RUN
+click,Firefox 60.0,,2018-06-26 18:17:56,2018-06-26 18:17:58,2.197s,PASSED
+click,Firefox 60.0,,2018-06-26 18:17:58,2018-06-26 18:17:59,0.464s,PASSED
+click,Firefox 60.0,,2018-06-26 18:17:59,2018-06-26 18:17:59,0.793s,PASSED
+click,Firefox 60.0,,2018-06-26 18:17:59,2018-06-26 18:18:00,0.358s,PASSED
+setText,Firefox 60.0,,2018-06-26 18:18:00,2018-06-26 18:18:00,0.302s,FAILED

@@ -20,8 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.openBrowser('')
-
 WebUI.click(findTestObject('NewActivity_Object_Repository/i_caret pull-right'))
 
 WebUI.click(findTestObject('NewActivity_Object_Repository/span_Project'))
@@ -30,17 +28,23 @@ WebUI.click(findTestObject('NewActivity_Object_Repository/i_caret pull-right_1')
 
 WebUI.click(findTestObject('NewActivity_Object_Repository/span_Meeting With Client'))
 
-WebUI.setText(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'), '01')
+not_run: WebUI.waitForElementPresent(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'), 2)
 
-WebUI.doubleClick(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'))
+WebUI.click(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'))
+
+WebUI.setText(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'), startTime)
+
+WebUI.sendKeys(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'), Keys.chord(Keys.TAB))
+
+WebUI.click(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'))
 
 WebUI.setText(findTestObject('NewActivity_Object_Repository/input_form-control ng-pristine'), '02')
 
 WebUI.setText(findTestObject('NewActivity_Object_Repository/input_addCost'), '10')
 
+WebUI.doubleClick(findTestObject('NewActivity_Object_Repository/textarea_form-control ng-untou'))
+
 WebUI.setText(findTestObject('NewActivity_Object_Repository/textarea_form-control ng-untou'), 'description')
 
 WebUI.click(findTestObject('NewActivity_Object_Repository/button_Submit'))
-
-WebUI.closeBrowser()
 

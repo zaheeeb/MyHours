@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="13" tests="1" failures="1" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="1" failures="1" errors="0" time="13" timestamp="2018-06-26 18:37:35" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_183733"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_183733\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_183733\\1530027468722.png"/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="07978fea-173b-43ab-82b3-cea585c59819"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login_TestCase" classname="Test Cases/Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-26 18:37:36 - [TEST_CASE][PASSED] - Test Cases/Login/Login_TestCase: Test Cases/Login/Login_TestCase
+
+2018-06-26 18:37:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 18:37:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 18:37:41 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-26 18:37:44 - [MESSAGE][PASSED] - Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-26 18:37:44 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Login_Object_Repository/input_email' is visible
+
+2018-06-26 18:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login_Object_Repository/input_email' is visible
+
+2018-06-26 18:37:44 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/Login_Object_Repository/input_email'
+
+2018-06-26 18:37:44 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/Login_Object_Repository/input_email'
+
+2018-06-26 18:37:44 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 18:37:44 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 18:37:44 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 18:37:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Login_Object_Repository/input_password'
+
+2018-06-26 18:37:45 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-06-26 18:37:45 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TrackActivity/NewActivity_TestCase" classname="Test Cases/TrackActivity/NewActivity_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;input id=&quot;focusser-0&quot; class=&quot;ui-select-focusser ui-select-offscreen ng-scope&quot; type=&quot;text&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)"/>
+         <system-out><![CDATA[2018-06-26 18:37:45 - [TEST_CASE][FAILED] - Test Cases/TrackActivity/NewActivity_TestCase: Test Cases/TrackActivity/NewActivity_TestCase FAILED because (of) Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)
+
+2018-06-26 18:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-26 18:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-26 18:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-26 18:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-26 18:37:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-26 18:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-26 18:37:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-26 18:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-26 18:37:48 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' is present
+
+2018-06-26 18:37:48 - [MESSAGE][PASSED] - Object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' is present
+
+2018-06-26 18:37:48 - [TEST_STEP][FAILED] - setText: Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)
+
+2018-06-26 18:37:48 - [MESSAGE][FAILED] - Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)
+[[ATTACHMENT|C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180626_183733\\1530027468722.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-26 18:37:45 - [TEST_CASE][FAILED] - Test Cases/TrackActivity/NewActivity_TestCase: Test Cases/TrackActivity/NewActivity_TestCase FAILED because (of) Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 18:37:35 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/TrackActivity/NewActivity_TestCase FAILED because (of) Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)]]></system-out>
+      <system-err><![CDATA[2018-06-26 18:37:35 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/TrackActivity/NewActivity_TestCase FAILED because (of) Unable to set text '01' of object 'Object Repository/NewActivity_Object_Repository/input_form-control ng-pristine' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <input id="focusser-0" class="ui-select-focusser ui-select-offscreen ng-scope" type="text"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9072, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 07978fea-173b-43ab-82b3-cea585c59819)]]></system-err>
+   </testsuite>
+</testsuites>
