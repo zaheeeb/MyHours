@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-27 22:09:15,2018-06-27 22:09:40,24.561s,PASSED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-27 22:09:16,2018-06-27 22:09:28,11.704s,PASSED
+openBrowser,Firefox 60.0,,2018-06-27 22:09:17,2018-06-27 22:09:23,6.476s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-27 22:09:23,2018-06-27 22:09:27,3.935s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-06-27 22:09:27,2018-06-27 22:09:27,0.133s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:27,2018-06-27 22:09:27,0.245s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:27,2018-06-27 22:09:27,0.185s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 22:09:27,2018-06-27 22:09:28,0.123s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-27 22:09:28,2018-06-27 22:09:34,6.752s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:28,2018-06-27 22:09:30,2.110s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:30,2018-06-27 22:09:31,0.346s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:31,2018-06-27 22:09:32,0.685s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:32,2018-06-27 22:09:32,0.393s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:32,2018-06-27 22:09:32,0.312s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:32,2018-06-27 22:09:32,0.064s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 22:09:32,2018-06-27 22:09:32,0.128s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:32,2018-06-27 22:09:33,0.498s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:33,2018-06-27 22:09:33,0.065s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:33,2018-06-27 22:09:33,0.158s,PASSED
+doubleClick,Firefox 60.0,,2018-06-27 22:09:33,2018-06-27 22:09:33,0.272s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:33,2018-06-27 22:09:34,0.292s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2.NewActivity_Object_Repository/textarea_form-control ng-untou), ""value"")",Firefox 60.0,,2018-06-27 22:09:34,2018-06-27 22:09:34,0.150s,PASSED
+"Statement - assert attribute == ""description""",Firefox 60.0,,2018-06-27 22:09:34,2018-06-27 22:09:34,0.004s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:34,2018-06-27 22:09:34,0.530s,PASSED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 60.0,invoice creation of entered hours.,2018-06-27 22:09:34,2018-06-27 22:09:39,4.196s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:35,2018-06-27 22:09:35,0.283s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:35,2018-06-27 22:09:35,0.084s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:35,2018-06-27 22:09:36,0.498s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:36,2018-06-27 22:09:37,1.004s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:37,2018-06-27 22:09:37,0.278s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:37,2018-06-27 22:09:38,0.706s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:38,2018-06-27 22:09:38,0.177s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:38,2018-06-27 22:09:38,0.268s,PASSED
+setText,Firefox 60.0,,2018-06-27 22:09:38,2018-06-27 22:09:38,0.225s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:38,2018-06-27 22:09:39,0.346s,PASSED
+,,,,,,
+Test Cases/4.Logout/Logout_TestCase,Firefox 60.0,logsout from system,2018-06-27 22:09:39,2018-06-27 22:09:40,1.160s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:39,2018-06-27 22:09:40,0.313s,PASSED
+click,Firefox 60.0,,2018-06-27 22:09:40,2018-06-27 22:09:40,0.271s,PASSED

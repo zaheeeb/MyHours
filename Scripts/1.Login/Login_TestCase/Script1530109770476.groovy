@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://app.myhours.com/#/signin')
+WebUI.navigateToUrl(varApplicationUrl)
 
 WebUI.waitForElementVisible(findTestObject('1.Login_Object_Repository/input_email'), 2)
 

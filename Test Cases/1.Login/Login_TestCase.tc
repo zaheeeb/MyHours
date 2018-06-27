@@ -19,4 +19,11 @@
       <masked>true</masked>
       <name>varPassword</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>adf24781-dbeb-4387-a1c8-d059acb418e1</id>
+      <masked>false</masked>
+      <name>varApplicationUrl</name>
+   </variable>
 </TestCaseEntity>

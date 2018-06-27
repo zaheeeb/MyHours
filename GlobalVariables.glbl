@@ -12,4 +12,9 @@
       <initValue>'test12345'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>applicationUrl</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

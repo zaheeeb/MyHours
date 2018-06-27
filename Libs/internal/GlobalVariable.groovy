@@ -26,4 +26,9 @@ public class GlobalVariable {
      */
 	public static Object password = 'test12345'
 	 
+    /**
+     * <p></p>
+     */
+	public static Object applicationUrl = ''
+	 
 }
