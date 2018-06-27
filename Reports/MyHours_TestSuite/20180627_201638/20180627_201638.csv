@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-27 20:16:41,2018-06-27 20:17:07,26.167s,ERROR
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-27 20:16:42,2018-06-27 20:16:53,11.638s,PASSED
+openBrowser,Firefox 60.0,,2018-06-27 20:16:43,2018-06-27 20:16:49,6.091s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-27 20:16:49,2018-06-27 20:16:52,3.432s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-06-27 20:16:52,2018-06-27 20:16:53,0.484s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:53,2018-06-27 20:16:53,0.330s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:53,2018-06-27 20:16:53,0.320s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 20:16:53,2018-06-27 20:16:53,0.263s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-27 20:16:53,2018-06-27 20:17:00,6.551s,ERROR
+click,Firefox 60.0,,2018-06-27 20:16:54,2018-06-27 20:16:57,2.262s,PASSED
+click,Firefox 60.0,,2018-06-27 20:16:57,2018-06-27 20:16:57,0.546s,PASSED
+click,Firefox 60.0,,2018-06-27 20:16:57,2018-06-27 20:16:58,0.509s,PASSED
+click,Firefox 60.0,,2018-06-27 20:16:58,2018-06-27 20:16:58,0.405s,PASSED
+waitForElementPresent,Firefox 60.0,,2018-06-27 20:16:58,2018-06-27 20:16:58,0.002s,NOT_RUN
+click,Firefox 60.0,,2018-06-27 20:16:58,2018-06-27 20:16:58,0.320s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:58,2018-06-27 20:16:58,0.114s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 20:16:58,2018-06-27 20:16:59,0.171s,PASSED
+click,Firefox 60.0,,2018-06-27 20:16:59,2018-06-27 20:16:59,0.264s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:59,2018-06-27 20:16:59,0.075s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:59,2018-06-27 20:16:59,0.136s,PASSED
+doubleClick,Firefox 60.0,,2018-06-27 20:16:59,2018-06-27 20:16:59,0.328s,PASSED
+setText,Firefox 60.0,,2018-06-27 20:16:59,2018-06-27 20:17:00,0.398s,PASSED
+Statement - var(descriptionValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2.NewActivity_Object_Repository/textarea_form-control ng-untou))),Firefox 60.0,,2018-06-27 20:17:00,2018-06-27 20:17:00,0.119s,PASSED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 60.0,invoice creation of entered hours.,2018-06-27 20:17:00,2018-06-27 20:17:07,6.863s,FAILED
+click,Firefox 60.0,,2018-06-27 20:17:00,2018-06-27 20:17:01,0.287s,PASSED
+click,Firefox 60.0,,2018-06-27 20:17:01,2018-06-27 20:17:01,0.073s,PASSED
+click,Firefox 60.0,,2018-06-27 20:17:01,2018-06-27 20:17:01,0.381s,PASSED
+click,Firefox 60.0,,2018-06-27 20:17:01,2018-06-27 20:17:07,5.815s,FAILED
+,,,,,,
+Test Cases/4.Logout/Logout_TestCase,Firefox 60.0,logsout from system,2018-06-27 20:17:07,2018-06-27 20:17:07,0.321s,FAILED
+click,Firefox 60.0,,2018-06-27 20:17:07,2018-06-27 20:17:07,0.023s,FAILED

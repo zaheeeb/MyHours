@@ -28,8 +28,6 @@ WebUI.click(findTestObject('2.NewActivity_Object_Repository/i_caret pull-right_1
 
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/span_Meeting With Client'))
 
-not_run: WebUI.waitForElementPresent(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'), 2)
-
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'))
 
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'), startTime)

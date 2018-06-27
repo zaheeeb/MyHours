@@ -27,8 +27,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_175401\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_201638\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/MyHours_TestSuite', suiteProperties, [new TestCaseBinding('Test Cases/1.Login/Login_TestCase', 'Test Cases/1.Login/Login_TestCase',  [ 'varPassword' : 'test12345' , 'varUserName' : 'zaheeeb@gmail.com' ,  ]), new TestCaseBinding('Test Cases/2.TrackActivity/NewActivity_TestCase', 'Test Cases/2.TrackActivity/NewActivity_TestCase',  null), new TestCaseBinding('Test Cases/3.Create_Invoice/CreateInvoice_TestCase', 'Test Cases/3.Create_Invoice/CreateInvoice_TestCase',  null)])
+TestCaseMain.startTestSuite('Test Suites/MyHours_TestSuite', suiteProperties, [new TestCaseBinding('Test Cases/1.Login/Login_TestCase', 'Test Cases/1.Login/Login_TestCase',  [ 'varPassword' : 'test12345' , 'varUserName' : 'zaheeeb@gmail.com' ,  ]), new TestCaseBinding('Test Cases/2.TrackActivity/NewActivity_TestCase', 'Test Cases/2.TrackActivity/NewActivity_TestCase',  null), new TestCaseBinding('Test Cases/3.Create_Invoice/CreateInvoice_TestCase', 'Test Cases/3.Create_Invoice/CreateInvoice_TestCase',  null), new TestCaseBinding('Test Cases/4.Logout/Logout_TestCase', 'Test Cases/4.Logout/Logout_TestCase',  null)])
