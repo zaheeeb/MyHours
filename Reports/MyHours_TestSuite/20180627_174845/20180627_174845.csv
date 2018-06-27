@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-27 17:48:49,2018-06-27 17:49:15,26.052s,FAILED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-27 17:48:50,2018-06-27 17:49:08,17.961s,PASSED
+openBrowser,Firefox 60.0,,2018-06-27 17:48:52,2018-06-27 17:49:01,9.777s,PASSED
+navigateToUrl,Firefox 60.0,,2018-06-27 17:49:01,2018-06-27 17:49:07,5.692s,PASSED
+waitForElementVisible,Firefox 60.0,,2018-06-27 17:49:07,2018-06-27 17:49:07,0.238s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:07,2018-06-27 17:49:08,0.488s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:08,2018-06-27 17:49:08,0.229s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 17:49:08,2018-06-27 17:49:08,0.154s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-27 17:49:08,2018-06-27 17:49:14,6.214s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:09,2018-06-27 17:49:11,1.717s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:11,2018-06-27 17:49:12,0.967s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:12,2018-06-27 17:49:12,0.411s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:12,2018-06-27 17:49:12,0.368s,PASSED
+waitForElementPresent,Firefox 60.0,,2018-06-27 17:49:12,2018-06-27 17:49:12,0.001s,NOT_RUN
+click,Firefox 60.0,,2018-06-27 17:49:12,2018-06-27 17:49:13,0.261s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:13,0.120s,PASSED
+sendKeys,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:13,0.206s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:13,0.324s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:13,0.059s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:13,0.102s,PASSED
+doubleClick,Firefox 60.0,,2018-06-27 17:49:13,2018-06-27 17:49:14,0.256s,PASSED
+setText,Firefox 60.0,,2018-06-27 17:49:14,2018-06-27 17:49:14,0.263s,PASSED
+click,Firefox 60.0,,2018-06-27 17:49:14,2018-06-27 17:49:14,0.447s,PASSED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 60.0,invoice creation of entered hours.,2018-06-27 17:49:14,2018-06-27 17:49:15,0.784s,FAILED
+click,Firefox 60.0,,2018-06-27 17:49:15,2018-06-27 17:49:15,0.269s,FAILED

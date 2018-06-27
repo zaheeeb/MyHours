@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="21" tests="2" failures="0" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="2" failures="0" errors="0" time="21" timestamp="2018-06-27 17:35:17" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_173514"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_173514\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="11efb16d-250f-44eb-b7fc-f0e40fd54006"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:35:17 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-06-27 17:35:18 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 17:35:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 17:35:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:35:29 - [MESSAGE][PASSED] - Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:35:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:35:30 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:35:30 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:35:30 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:35:30 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:35:30 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:35:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:35:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.TrackActivity/NewActivity_TestCase" classname="Test Cases/2.TrackActivity/NewActivity_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:35:31 - [TEST_CASE][PASSED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase
+
+2018-06-27 17:35:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:35:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:35:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:35:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:35:36 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-27 17:35:36 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-27 17:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:35:36 - [TEST_STEP][PASSED] - setText: Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:36 - [MESSAGE][PASSED] - Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:36 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:36 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:35:37 - [TEST_STEP][PASSED] - setText: Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:37 - [MESSAGE][PASSED] - Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:35:37 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:35:37 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:35:37 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:35:37 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:35:37 - [TEST_STEP][PASSED] - setText: Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:35:38 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:35:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on
+
+2018-06-27 17:35:39 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 17:35:17 - [TEST_SUITE][PASSED] - MyHours_TestSuite: Test Cases/2.TrackActivity/NewActivity_TestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

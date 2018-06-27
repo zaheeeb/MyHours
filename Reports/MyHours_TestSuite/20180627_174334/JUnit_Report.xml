@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="38" tests="2" failures="1" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="2" failures="1" errors="0" time="38" timestamp="2018-06-27 17:43:37" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_174334"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_174334\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="845526f4-c4b7-4dfc-94ce-447b8d442b2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:43:38 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-06-27 17:43:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 17:43:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 17:43:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:43:52 - [MESSAGE][PASSED] - Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:43:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:43:53 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:43:53 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:43:53 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:43:54 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:43:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:43:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.TrackActivity/NewActivity_TestCase" classname="Test Cases/2.TrackActivity/NewActivity_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:43:54 - [TEST_CASE][PASSED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase
+
+2018-06-27 17:43:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:43:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:43:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:43:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:43:59 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-27 17:43:59 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-27 17:43:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:43:59 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:43:59 - [TEST_STEP][PASSED] - setText: Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:43:59 - [MESSAGE][PASSED] - Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:43:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:43:59 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:43:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:44:00 - [TEST_STEP][PASSED] - setText: Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:44:00 - [MESSAGE][PASSED] - Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:44:00 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:44:00 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:44:00 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:44:00 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:44:00 - [TEST_STEP][PASSED] - setText: Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:44:01 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:44:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on
+
+2018-06-27 17:44:02 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" classname="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})"/>
+         <system-out><![CDATA[2018-06-27 17:44:02 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})
+
+2018-06-27 17:44:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 17:44:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-06-27 17:44:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 17:44:08 - [TEST_STEP][FAILED] - setText: Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})
+
+2018-06-27 17:44:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-27 17:44:16 - [MESSAGE][FAILED] - Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})]]></system-out>
+         <system-err><![CDATA[2018-06-27 17:44:02 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 17:43:37 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})]]></system-out>
+      <system-err><![CDATA[2018-06-27 17:43:37 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to set text 'zaheeeb@gmail.com' of object 'Object Repository/3.CreateInvoice_Object_Repository/input_email' (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6768, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 845526f4-c4b7-4dfc-94ce-447b8d442b2f
+*** Element info: {Using=xpath, value=//input[@name = 'email' and @id = 'email' and @type = 'email']})]]></system-err>
+   </testsuite>
+</testsuites>

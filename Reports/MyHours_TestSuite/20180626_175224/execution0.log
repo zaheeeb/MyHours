@@ -2592,3 +2592,366 @@ Driver info: driver.version: unknown)</message>
   <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Login_Credentials.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+<record>
+  <date>2018-06-27T17:31:31</date>
+  <millis>1530109891903</millis>
+  <sequence>11429</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2138</thread>
+  <message>Finding test data with id &amp;apos;Data Files/Login_Test_Data&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:31:31</date>
+  <millis>1530109891918</millis>
+  <sequence>11430</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2138</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:31:31</date>
+  <millis>1530109891918</millis>
+  <sequence>11431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2138</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Login_Credentials.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:34:21</date>
+  <millis>1530110061274</millis>
+  <sequence>11866</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2153</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:34:21</date>
+  <millis>1530110061275</millis>
+  <sequence>11867</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2153</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:34:21</date>
+  <millis>1530110061276</millis>
+  <sequence>11868</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2153</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:35:14</date>
+  <millis>1530110114200</millis>
+  <sequence>12303</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:35:14</date>
+  <millis>1530110114202</millis>
+  <sequence>12304</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:35:14</date>
+  <millis>1530110114203</millis>
+  <sequence>12305</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:42:27</date>
+  <millis>1530110547658</millis>
+  <sequence>12741</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2264</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:42:27</date>
+  <millis>1530110547660</millis>
+  <sequence>12742</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2264</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:42:27</date>
+  <millis>1530110547660</millis>
+  <sequence>12743</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2264</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:43:33</date>
+  <millis>1530110613835</millis>
+  <sequence>13226</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:43:33</date>
+  <millis>1530110613837</millis>
+  <sequence>13227</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:43:33</date>
+  <millis>1530110613837</millis>
+  <sequence>13228</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:45:04</date>
+  <millis>1530110704003</millis>
+  <sequence>13711</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2337</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:45:04</date>
+  <millis>1530110704005</millis>
+  <sequence>13712</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2337</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:45:04</date>
+  <millis>1530110704005</millis>
+  <sequence>13713</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2337</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:46:42</date>
+  <millis>1530110802291</millis>
+  <sequence>14172</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:46:42</date>
+  <millis>1530110802292</millis>
+  <sequence>14173</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:46:42</date>
+  <millis>1530110802293</millis>
+  <sequence>14174</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2133</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:48:45</date>
+  <millis>1530110925528</millis>
+  <sequence>14633</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:48:45</date>
+  <millis>1530110925530</millis>
+  <sequence>14634</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:48:45</date>
+  <millis>1530110925530</millis>
+  <sequence>14635</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2232</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:50:47</date>
+  <millis>1530111047094</millis>
+  <sequence>15094</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2474</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:50:47</date>
+  <millis>1530111047096</millis>
+  <sequence>15095</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2474</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:50:47</date>
+  <millis>1530111047097</millis>
+  <sequence>15096</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2474</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:54:01</date>
+  <millis>1530111241565</millis>
+  <sequence>15573</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2364</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:54:01</date>
+  <millis>1530111241566</millis>
+  <sequence>15574</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2364</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:54:01</date>
+  <millis>1530111241567</millis>
+  <sequence>15575</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2364</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:55:37</date>
+  <millis>1530111337612</millis>
+  <sequence>16238</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2442</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData_File&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:55:37</date>
+  <millis>1530111337614</millis>
+  <sequence>16239</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2442</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-06-27T17:55:37</date>
+  <millis>1530111337616</millis>
+  <sequence>16240</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>2442</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Data Files\\Test_Data.xlsx&amp;apos; and sheet name &amp;apos;Sheet1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>

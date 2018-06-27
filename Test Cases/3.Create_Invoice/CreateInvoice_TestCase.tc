@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>invoice creation of entered hours.</description>
+   <name>CreateInvoice_TestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6076667-e970-4e89-ad18-335c1bfb1dad</testCaseGuid>
+</TestCaseEntity>

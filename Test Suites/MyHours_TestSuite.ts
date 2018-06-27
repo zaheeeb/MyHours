@@ -4,7 +4,7 @@
    <name>MyHours_TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-26T21:27:14</lastRun>
+   <lastRun>2018-06-27T17:55:37</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>414598cc-fdd2-46c3-8e5b-5424cef99331</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Login_TestCase</testCaseId>
+      <testCaseId>Test Cases/1.Login/Login_TestCase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a8d526f3-07e9-436a-ae68-86071b2c2c3d</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Login_Test_Data</testDataId>
+         <testDataId>Data Files/TestData_File</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a8d526f3-07e9-436a-ae68-86071b2c2c3d</testDataLinkId>
@@ -42,7 +42,7 @@
       <guid>2e0900e8-98aa-4bfb-840e-f379195cba7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TrackActivity/NewActivity_TestCase</testCaseId>
+      <testCaseId>Test Cases/2.TrackActivity/NewActivity_TestCase</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,9 +51,15 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>3bec965f-efeb-431b-8db2-b4488b5facb2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/3.Create_Invoice/CreateInvoice_TestCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>eb392fad-e2e4-40c8-a3c4-aaaf506046c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Logout/Logout_TestCase</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/4.Logout/Logout_TestCase</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

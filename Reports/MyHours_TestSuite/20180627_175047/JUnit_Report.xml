@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="19" tests="2" failures="1" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="2" failures="1" errors="0" time="19" timestamp="2018-06-27 17:50:49" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_175047"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_175047\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_175047\\1530111068930.png"/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="ada140e4-a822-4ddb-8507-591a8a4fadb5"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:50:50 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-06-27 17:50:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 17:50:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 17:50:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:51:00 - [MESSAGE][PASSED] - Navigate to 'https://app.myhours.com/#/signin' successfully
+
+2018-06-27 17:51:00 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:51:00 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-27 17:51:00 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:51:01 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-27 17:51:01 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:51:01 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:51:01 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-27 17:51:02 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.TrackActivity/NewActivity_TestCase" classname="Test Cases/2.TrackActivity/NewActivity_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-27 17:51:02 - [TEST_CASE][PASSED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase
+
+2018-06-27 17:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:51:04 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-27 17:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-27 17:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-06-27 17:51:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-06-27 17:51:06 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2018-06-27 17:51:06 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2018-06-27 17:51:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:51:06 - [TEST_STEP][PASSED] - setText: Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:06 - [MESSAGE][PASSED] - Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:06 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-06-27 17:51:07 - [TEST_STEP][PASSED] - setText: Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:07 - [MESSAGE][PASSED] - Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-06-27 17:51:07 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:51:07 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-06-27 17:51:07 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-06-27 17:51:07 - [TEST_STEP][PASSED] - setText: Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:51:07 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-06-27 17:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on
+
+2018-06-27 17:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" classname="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-06-27 17:51:08 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-06-27 17:51:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' is clicked on
+
+2018-06-27 17:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' is clicked on
+
+2018-06-27 17:51:08 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-06-27 17:51:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/3.CreateInvoice_Object_Repository/Page_My Hours/a_Invoices' does not exist
+
+2018-06-27 17:51:08 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-06-27 17:51:09 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180627_175047\\1530111068930.png]]]]></system-out>
+         <system-err><![CDATA[2018-06-27 17:51:08 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 17:50:49 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-06-27 17:50:49 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>
