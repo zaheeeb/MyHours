@@ -44,5 +44,9 @@ WebUI.doubleClick(findTestObject('2.NewActivity_Object_Repository/textarea_form-
 
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/textarea_form-control ng-untou'), 'description')
 
+attribute = WebUI.getAttribute(findTestObject('2.NewActivity_Object_Repository/textarea_form-control ng-untou'), 'value')
+
+assert attribute == 'description'
+
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/button_Submit'))
 
