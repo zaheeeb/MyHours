@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-28 22:12:52,2018-06-28 22:13:17,25.566s,FAILED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-28 22:12:53,2018-06-28 22:13:10,17.238s,PASSED
+Start setup action : setup,Firefox 60.0,,2018-06-28 22:12:53,2018-06-28 22:13:08,15.509s,PASSED
+waitForElementVisible,Firefox 60.0,wait for elements to be visible,2018-06-28 22:13:08,2018-06-28 22:13:09,0.362s,PASSED
+setText,Firefox 60.0,Fill username,2018-06-28 22:13:09,2018-06-28 22:13:09,0.670s,PASSED
+setText,Firefox 60.0,Fill password,2018-06-28 22:13:09,2018-06-28 22:13:10,0.302s,PASSED
+sendKeys,Firefox 60.0,Click Login,2018-06-28 22:13:10,2018-06-28 22:13:10,0.284s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-28 22:13:10,2018-06-28 22:13:16,6.074s,FAILED
+click,Firefox 60.0,,2018-06-28 22:13:11,2018-06-28 22:13:15,3.694s,PASSED
+click,Firefox 60.0,,2018-06-28 22:13:15,2018-06-28 22:13:16,0.878s,PASSED
+click,Firefox 60.0,,2018-06-28 22:13:16,2018-06-28 22:13:16,0.369s,FAILED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 60.0,invoice creation of entered hours.,2018-06-28 22:13:16,2018-06-28 22:13:17,0.616s,FAILED
+click,Firefox 60.0,,2018-06-28 22:13:17,2018-06-28 22:13:17,0.048s,FAILED
+,,,,,,
+Test Cases/4.Logout/Logout_TestCase,Firefox 60.0,logsout from system,2018-06-28 22:13:17,2018-06-28 22:13:17,0.662s,FAILED
+click,Firefox 60.0,,2018-06-28 22:13:17,2018-06-28 22:13:17,0.046s,FAILED

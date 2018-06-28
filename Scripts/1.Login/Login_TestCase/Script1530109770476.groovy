@@ -20,15 +20,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(varApplicationUrl)
-
+'wait for elements to be visible'
 WebUI.waitForElementVisible(findTestObject('1.Login_Object_Repository/input_email'), 2)
 
+'Fill username'
 WebUI.setText(findTestObject('1.Login_Object_Repository/input_email'), varUserName)
 
+'Fill password'
 WebUI.setText(findTestObject('1.Login_Object_Repository/input_password'), varPassword)
 
-WebUI.sendKeys(findTestObject('1.Login_Object_Repository/input_password'), Keys.chord(Keys.ENTER))
+'Click Login'
+WebUI.click(findTestObject('1.Login_Object_Repository/button_Sign in'), FailureHandling.STOP_ON_FAILURE)
+
+@com.kms.katalon.core.annotation.SetUp
+def setup() {
+    WebUI.openBrowser(varApplicationUrl)
+}
 

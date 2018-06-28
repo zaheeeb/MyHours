@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="25" tests="1" failures="3" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="1" failures="3" errors="0" time="25" timestamp="2018-06-28 22:12:52" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180628_221249"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180628_221249\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 60.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="0493840e-a8bb-401d-ac9c-11735dcd6dbc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-06-28 22:12:53 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-06-28 22:12:53 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+2018-06-28 22:12:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-06-28 22:13:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-06-28 22:13:08 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+2018-06-28 22:13:08 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-28 22:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-06-28 22:13:09 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-28 22:13:09 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-06-28 22:13:09 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-28 22:13:10 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-28 22:13:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-06-28 22:13:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/1.Login_Object_Repository/input_password']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.TrackActivity/NewActivity_TestCase" classname="Test Cases/2.TrackActivity/NewActivity_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id(&quot;taskDropdownTrack&quot;)/div[@class=&quot;ui-select-match&quot;]/span[@class=&quot;btn btn-default form-control ui-select-toggle&quot;]/i[@class=&quot;caret pull-right&quot;]})"/>
+         <system-out><![CDATA[2018-06-28 22:13:10 - [TEST_CASE][FAILED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase FAILED because (of) Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})
+
+2018-06-28 22:13:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-28 22:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-06-28 22:13:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-28 22:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-06-28 22:13:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})
+
+2018-06-28 22:13:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-28 22:13:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})]]></system-out>
+         <system-err><![CDATA[2018-06-28 22:13:10 - [TEST_CASE][FAILED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase FAILED because (of) Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" classname="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Manage                          ' or . = 'Manage                          ')]})"/>
+         <system-out><![CDATA[2018-06-28 22:13:16 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Manage                          ' or . = 'Manage                          ')]})
+
+2018-06-28 22:13:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Manage                          ' or . = 'Manage                          ')]})
+
+2018-06-28 22:13:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-28 22:13:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Manage                          ' or . = 'Manage                          ')]})]]></system-out>
+         <system-err><![CDATA[2018-06-28 22:13:16 - [TEST_CASE][FAILED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase FAILED because (of) Unable to click on object 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Manage                          ' or . = 'Manage                          ')]})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4.Logout/Logout_TestCase" classname="Test Cases/4.Logout/Logout_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/4.Logout_Object_Repository/a_Zahir Babur' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Zahir Babur          ' or . = 'Zahir Babur          ')]})"/>
+         <system-out><![CDATA[2018-06-28 22:13:17 - [TEST_CASE][FAILED] - Test Cases/4.Logout/Logout_TestCase: Test Cases/4.Logout/Logout_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Logout_Object_Repository/a_Zahir Babur' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Zahir Babur          ' or . = 'Zahir Babur          ')]})
+
+2018-06-28 22:13:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/4.Logout_Object_Repository/a_Zahir Babur' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Zahir Babur          ' or . = 'Zahir Babur          ')]})
+
+2018-06-28 22:13:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-06-28 22:13:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/4.Logout_Object_Repository/a_Zahir Babur' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Zahir Babur          ' or . = 'Zahir Babur          ')]})]]></system-out>
+         <system-err><![CDATA[2018-06-28 22:13:17 - [TEST_CASE][FAILED] - Test Cases/4.Logout/Logout_TestCase: Test Cases/4.Logout/Logout_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Logout_Object_Repository/a_Zahir Babur' (Root cause: org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=//*[(text() = 'Zahir Babur          ' or . = 'Zahir Babur          ')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-28 22:12:52 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/2.TrackActivity/NewActivity_TestCase FAILED because (of) Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})]]></system-out>
+      <system-err><![CDATA[2018-06-28 22:12:52 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/2.TrackActivity/NewActivity_TestCase FAILED because (of) Unable to click on object 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' (Root cause: org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 2720, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0493840e-a8bb-401d-ac9c-11735dcd6dbc
+*** Element info: {Using=xpath, value=id("taskDropdownTrack")/div[@class="ui-select-match"]/span[@class="btn btn-default form-control ui-select-toggle"]/i[@class="caret pull-right"]})]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,,,2018-06-28 22:03:56,2018-06-28 22:04:02,5.901s,FAILED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,,,2018-06-28 22:03:57,2018-06-28 22:03:59,2.094s,FAILED
+waitForElementVisible,,,2018-06-28 22:03:58,2018-06-28 22:03:59,1.189s,FAILED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,,,2018-06-28 22:03:59,2018-06-28 22:04:00,1.475s,FAILED
+click,,,2018-06-28 22:04:00,2018-06-28 22:04:00,0.599s,FAILED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,,invoice creation of entered hours.,2018-06-28 22:04:01,2018-06-28 22:04:01,0.746s,FAILED
+click,,,2018-06-28 22:04:01,2018-06-28 22:04:01,0.063s,FAILED
+,,,,,,
+Test Cases/4.Logout/Logout_TestCase,,logsout from system,2018-06-28 22:04:01,2018-06-28 22:04:02,0.448s,FAILED
+click,,,2018-06-28 22:04:02,2018-06-28 22:04:02,0.027s,FAILED
