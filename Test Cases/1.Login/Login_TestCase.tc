@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>varApplicationUrl</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>220c61d7-2774-4655-8810-8c49ca2407c8</id>
+      <masked>true</masked>
+      <name>varWrongPassword</name>
+   </variable>
 </TestCaseEntity>

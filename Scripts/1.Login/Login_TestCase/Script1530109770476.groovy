@@ -32,6 +32,14 @@ WebUI.setText(findTestObject('1.Login_Object_Repository/input_password'), varPas
 'Click Login'
 WebUI.click(findTestObject('1.Login_Object_Repository/button_Sign in'), FailureHandling.STOP_ON_FAILURE)
 
+'Get expected status for wrong password'
+switch('errorMessage')
+ {
+	 case 'wrong password':
+	 	def errorMsg = WebUI.getText 
+        break
+}
+
 @com.kms.katalon.core.annotation.SetUp
 def setup() {
     WebUI.openBrowser(varApplicationUrl)

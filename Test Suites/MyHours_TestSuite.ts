@@ -4,7 +4,7 @@
    <name>MyHours_TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-28T22:14:18</lastRun>
+   <lastRun>2018-06-28T22:17:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -17,7 +17,7 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/1.Login/Login_TestCase</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>a8d526f3-07e9-436a-ae68-86071b2c2c3d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
@@ -42,6 +42,12 @@
          <type>DATA_COLUMN</type>
          <value>applicationUrl</value>
          <variableId>adf24781-dbeb-4387-a1c8-d059acb418e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>220c61d7-2774-4655-8810-8c49ca2407c8</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
