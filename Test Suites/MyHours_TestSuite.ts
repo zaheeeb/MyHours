@@ -47,7 +47,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>220c61d7-2774-4655-8810-8c49ca2407c8</variableId>
+         <variableId>52d608ef-e791-4022-911d-de5f5690cc51</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
