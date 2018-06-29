@@ -4,7 +4,7 @@
    <name>MyHours_TestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-06-28T22:17:57</lastRun>
+   <lastRun>2018-06-29T19:23:33</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -44,9 +44,9 @@
          <variableId>adf24781-dbeb-4387-a1c8-d059acb418e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>a8d526f3-07e9-436a-ae68-86071b2c2c3d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>loginMessage</value>
          <variableId>52d608ef-e791-4022-911d-de5f5690cc51</variableId>
       </variableLink>
    </testCaseLink>

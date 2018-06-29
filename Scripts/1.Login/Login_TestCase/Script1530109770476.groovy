@@ -33,11 +33,13 @@ WebUI.setText(findTestObject('1.Login_Object_Repository/input_password'), varPas
 WebUI.click(findTestObject('1.Login_Object_Repository/button_Sign in'), FailureHandling.STOP_ON_FAILURE)
 
 'Get expected status for wrong password'
-switch('errorMessage')
- {
-	 case 'wrong password':
-	 	def errorMsg = WebUI.getText 
-        break
+
+switch (varLoginMessage.toString()) 
+{
+    case 'wrong_password':
+        def errorMsg = WebUI.getText(findTestObject('1.Login_Object_Repository/div_There was a problem with a'))
+		WebUI.verifyEqual(errorMsg.contains('There was a problem with authenticating: Invalid username or password..'), true)
+		break;
 }
 
 @com.kms.katalon.core.annotation.SetUp

@@ -16,19 +16,4 @@ import groovy.transform.CompileStatic
 @CompileStatic
 public class GlobalVariable {
 	 
-    /**
-     * <p></p>
-     */
-	public static Object userName = 'zaheeeb@gmail.com'
-	 
-    /**
-     * <p></p>
-     */
-	public static Object password = 'test12345'
-	 
-    /**
-     * <p></p>
-     */
-	public static Object applicationUrl = ''
-	 
 }

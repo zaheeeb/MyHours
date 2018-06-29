@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 60.0,,2018-06-29 19:16:45,2018-06-29 19:17:18,32.851s,ERROR
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-29 19:16:46,2018-06-29 19:16:58,12.470s,ERROR
+Start setup action : setup,Firefox 60.0,,2018-06-29 19:16:46,2018-06-29 19:16:56,10.465s,PASSED
+waitForElementVisible,Firefox 60.0,wait for elements to be visible,2018-06-29 19:16:56,2018-06-29 19:16:57,0.223s,PASSED
+setText,Firefox 60.0,Fill username,2018-06-29 19:16:57,2018-06-29 19:16:57,0.432s,PASSED
+setText,Firefox 60.0,Fill password,2018-06-29 19:16:57,2018-06-29 19:16:57,0.192s,PASSED
+click,Firefox 60.0,Click Login,2018-06-29 19:16:57,2018-06-29 19:16:58,0.369s,PASSED
+Statement - switch (varLoginMessage.toString()),Firefox 60.0,Get expected status for wrong password,2018-06-29 19:16:58,2018-06-29 19:16:58,0.674s,PASSED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 60.0,,2018-06-29 19:16:58,2018-06-29 19:17:07,8.210s,PASSED
+Start setup action : setup,Firefox 60.0,,2018-06-29 19:16:58,2018-06-29 19:17:06,7.229s,PASSED
+waitForElementVisible,Firefox 60.0,wait for elements to be visible,2018-06-29 19:17:06,2018-06-29 19:17:06,0.074s,PASSED
+setText,Firefox 60.0,Fill username,2018-06-29 19:17:06,2018-06-29 19:17:06,0.412s,PASSED
+setText,Firefox 60.0,Fill password,2018-06-29 19:17:06,2018-06-29 19:17:06,0.149s,PASSED
+click,Firefox 60.0,Click Login,2018-06-29 19:17:06,2018-06-29 19:17:07,0.305s,PASSED
+Statement - switch (varLoginMessage.toString()),Firefox 60.0,Get expected status for wrong password,2018-06-29 19:17:07,2018-06-29 19:17:07,0.002s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 60.0,,2018-06-29 19:17:07,2018-06-29 19:17:13,6.445s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:07,2018-06-29 19:17:09,2.390s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:09,2018-06-29 19:17:10,0.354s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:10,2018-06-29 19:17:10,0.578s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:10,2018-06-29 19:17:11,0.387s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:11,2018-06-29 19:17:11,0.357s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:11,2018-06-29 19:17:11,0.095s,PASSED
+sendKeys,Firefox 60.0,,2018-06-29 19:17:11,2018-06-29 19:17:11,0.178s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:11,2018-06-29 19:17:12,0.266s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:12,0.070s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:12,0.130s,PASSED
+doubleClick,Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:12,0.288s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:12,0.180s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2.NewActivity_Object_Repository/textarea_form-control ng-untou), ""value"")",Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:12,0.130s,PASSED
+"Statement - assert attribute == ""description""",Firefox 60.0,,2018-06-29 19:17:12,2018-06-29 19:17:13,0.002s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:13,2018-06-29 19:17:13,0.508s,PASSED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 60.0,invoice creation of entered hours.,2018-06-29 19:17:13,2018-06-29 19:17:17,4.101s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:13,2018-06-29 19:17:14,0.293s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:14,2018-06-29 19:17:14,0.054s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:14,2018-06-29 19:17:14,0.649s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:14,2018-06-29 19:17:15,1.002s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:15,2018-06-29 19:17:16,0.276s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:16,2018-06-29 19:17:16,0.493s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:16,2018-06-29 19:17:16,0.139s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:16,2018-06-29 19:17:16,0.158s,PASSED
+setText,Firefox 60.0,,2018-06-29 19:17:16,2018-06-29 19:17:17,0.358s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:17,2018-06-29 19:17:17,0.301s,PASSED
+,,,,,,
+Test Cases/4.Logout/Logout_TestCase,Firefox 60.0,logsout from system,2018-06-29 19:17:17,2018-06-29 19:17:18,0.959s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:17,2018-06-29 19:17:18,0.349s,PASSED
+click,Firefox 60.0,,2018-06-29 19:17:18,2018-06-29 19:17:18,0.279s,PASSED
