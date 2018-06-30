@@ -10,9 +10,8 @@
 * Enter work hour entry and create invoice of it has been identified as important scenario for this assignment.
 
 ## Details
-* Not all values are asserted but only sample to get an idea.
 * Login test case also covers unsuccessful signin scenario.
 * Data has been used by fetching from data file and as well as hard coded.
-* Description value match assertion has been added to create activity page. (Not all fields are asserted and only samle scenarios has been used).
+* Description value match assertion has been added at create activity page. (Not all fields are asserted and only samle scenarios has been used).
 Tool provides report of executed test cases under Reports menu.
 * Further enhancements can be done on this test framework.
