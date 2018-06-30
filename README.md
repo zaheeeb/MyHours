@@ -14,3 +14,4 @@
 * Data has been used by fetching from data file and as well as hard coded.
 * Description value match assertion has been added to create activity page. (Not all fields are asserted and only samle scenarios has been used).
 Tool provides report of executed test cases under Reports menu.
+* Further enhancements can be done on this test framework.
