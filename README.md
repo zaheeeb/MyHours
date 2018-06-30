@@ -1,12 +1,13 @@
 # MyHours Assignment
 * Testing assignment has been commited to this space.
 
-## System test scenario
-* Enter work hour entry and create invoice of it has been identified as important scenario for this assignment.
-
 ## Download Katalon studio to run test suites
+* Download code from github branch to local folder.
 * To run this code, first we need to download and install katalon studio.
 * Can be run by command or by clicking Run button at the tool's menu bar.
+
+## System test scenario
+* Enter work hour entry and create invoice of it has been identified as important scenario for this assignment.
 
 ## Details
 * Test cases are linked to test suite so we can't run test cases individually, we must select suit and the press run button.
