@@ -22,31 +22,41 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/i_caret pull-right'))
 
+'select project from control'
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/span_Project'))
 
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/i_caret pull-right_1'))
 
+'select activity type'
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/span_Meeting With Client'))
 
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'))
 
+'enter startTime by using variable whose source is data file'
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'), startTime)
 
+'press tab key'
 WebUI.sendKeys(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'), Keys.chord(Keys.TAB))
 
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'))
 
+'enter endTime manually'
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/input_form-control ng-pristine'), '02')
 
+'enter cost'
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/input_addCost'), '10')
 
+'select text field'
 WebUI.doubleClick(findTestObject('2.NewActivity_Object_Repository/textarea_form-control ng-untou'))
 
+'enter description'
 WebUI.setText(findTestObject('2.NewActivity_Object_Repository/textarea_form-control ng-untou'), 'description')
 
+'assert that description field text returned correctly'
 attribute = WebUI.getAttribute(findTestObject('2.NewActivity_Object_Repository/textarea_form-control ng-untou'), 'value')
 
 assert attribute == 'description'
 
+'submit button'
 WebUI.click(findTestObject('2.NewActivity_Object_Repository/button_Submit'))
 

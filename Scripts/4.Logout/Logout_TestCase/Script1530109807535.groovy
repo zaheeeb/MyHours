@@ -23,3 +23,5 @@ WebUI.click(findTestObject('4.Logout_Object_Repository/a_Zahir Babur'))
 
 WebUI.click(findTestObject('4.Logout_Object_Repository/a_Sign out'))
 
+WebUI.closeBrowser()
+
