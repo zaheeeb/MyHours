@@ -13,5 +13,6 @@
 * Login test case also covers unsuccessful signin scenario.
 * Data has been used by fetching from data file and as well as hard coded.
 * Description value match assertion has been added at create activity page. (Not all fields are asserted and only samle scenarios has been used).
+* Data teared down after testing.
 Tool provides report of executed test cases under Reports menu.
 * Further enhancements can be done on this test framework.
