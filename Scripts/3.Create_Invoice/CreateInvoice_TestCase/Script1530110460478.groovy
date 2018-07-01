@@ -20,23 +20,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Click on Manage menu'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/a_Manage'))
 
+'Click on Invoivce sub menu'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/a_Invoices'))
 
+'Click on Create invoice link'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/a_Create New Invoice'))
 
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/input_ng-pristine ng-untouched'))
 
+'check box is checked'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/button_Invoice selected'))
 
+'Tax name entry'
 WebUI.setText(findTestObject('3.CreateInvoice_Object_Repository/input_tax-name'), 'GST')
 
+'tax percentage'
 WebUI.setText(findTestObject('3.CreateInvoice_Object_Repository/input_tax-value'), '14')
 
+'text on invoice is entered'
 WebUI.setText(findTestObject('3.CreateInvoice_Object_Repository/textarea_invoice-text'), 'invoice text')
 
+'hidden note is added'
 WebUI.setText(findTestObject('3.CreateInvoice_Object_Repository/textarea_invoice-note'), 'note not show on invoice.')
 
+'create button is clicked'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/button_Create'))
 
