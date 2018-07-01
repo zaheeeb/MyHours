@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MyHours_TestSuite,Firefox 61.0,,2018-07-01 19:01:57,2018-07-01 19:03:26,1m - 28.395s,FAILED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 61.0,"Login to system, also verifies unsuccessful login scenario",2018-07-01 19:01:58,2018-07-01 19:02:22,23.659s,PASSED
+Start setup action : setup,Firefox 61.0,,2018-07-01 19:01:58,2018-07-01 19:02:18,20.033s,PASSED
+waitForElementVisible,Firefox 61.0,wait for elements to be visible,2018-07-01 19:02:18,2018-07-01 19:02:19,0.355s,PASSED
+setText,Firefox 61.0,Fill username,2018-07-01 19:02:19,2018-07-01 19:02:19,0.480s,PASSED
+setText,Firefox 61.0,Fill password,2018-07-01 19:02:19,2018-07-01 19:02:19,0.310s,PASSED
+click,Firefox 61.0,Click Login,2018-07-01 19:02:19,2018-07-01 19:02:20,0.526s,PASSED
+Statement - switch (varLoginMessage.toString()),Firefox 61.0,Get expected status for wrong password,2018-07-01 19:02:20,2018-07-01 19:02:22,1.772s,PASSED
+,,,,,,
+Test Cases/1.Login/Login_TestCase,Firefox 61.0,"Login to system, also verifies unsuccessful login scenario",2018-07-01 19:02:22,2018-07-01 19:02:37,15.200s,PASSED
+Start setup action : setup,Firefox 61.0,,2018-07-01 19:02:22,2018-07-01 19:02:36,14.220s,PASSED
+waitForElementVisible,Firefox 61.0,wait for elements to be visible,2018-07-01 19:02:36,2018-07-01 19:02:36,0.077s,PASSED
+setText,Firefox 61.0,Fill username,2018-07-01 19:02:36,2018-07-01 19:02:36,0.251s,PASSED
+setText,Firefox 61.0,Fill password,2018-07-01 19:02:36,2018-07-01 19:02:37,0.265s,PASSED
+click,Firefox 61.0,Click Login,2018-07-01 19:02:37,2018-07-01 19:02:37,0.302s,PASSED
+Statement - switch (varLoginMessage.toString()),Firefox 61.0,Get expected status for wrong password,2018-07-01 19:02:37,2018-07-01 19:02:37,0.000s,PASSED
+,,,,,,
+Test Cases/2.TrackActivity/NewActivity_TestCase,Firefox 61.0,crete new activitry scenario is covered,2018-07-01 19:02:37,2018-07-01 19:02:44,7.459s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:38,2018-07-01 19:02:40,2.651s,PASSED
+click,Firefox 61.0,select project from control,2018-07-01 19:02:40,2018-07-01 19:02:41,0.541s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:41,2018-07-01 19:02:42,0.787s,PASSED
+click,Firefox 61.0,select activity type,2018-07-01 19:02:42,2018-07-01 19:02:42,0.391s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:42,2018-07-01 19:02:42,0.350s,PASSED
+setText,Firefox 61.0,enter startTime by using variable whose source is data file,2018-07-01 19:02:42,2018-07-01 19:02:43,0.104s,PASSED
+sendKeys,Firefox 61.0,press tab key,2018-07-01 19:02:43,2018-07-01 19:02:43,0.220s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:43,2018-07-01 19:02:43,0.294s,PASSED
+setText,Firefox 61.0,enter endTime manually,2018-07-01 19:02:43,2018-07-01 19:02:43,0.102s,PASSED
+setText,Firefox 61.0,enter cost,2018-07-01 19:02:43,2018-07-01 19:02:43,0.129s,PASSED
+doubleClick,Firefox 61.0,select text field,2018-07-01 19:02:43,2018-07-01 19:02:44,0.250s,PASSED
+setText,Firefox 61.0,enter description,2018-07-01 19:02:44,2018-07-01 19:02:44,0.382s,PASSED
+"Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2.NewActivity_Object_Repository/textarea_form-control ng-untou), ""value"")",Firefox 61.0,assert that description field text returned correctly,2018-07-01 19:02:44,2018-07-01 19:02:44,0.079s,PASSED
+"Statement - assert attribute == ""description""",Firefox 61.0,,2018-07-01 19:02:44,2018-07-01 19:02:44,0.002s,PASSED
+click,Firefox 61.0,submit button,2018-07-01 19:02:44,2018-07-01 19:02:44,0.384s,PASSED
+,,,,,,
+Test Cases/3.Create_Invoice/CreateInvoice_TestCase,Firefox 61.0,invoice creation of entered hours.,2018-07-01 19:02:44,2018-07-01 19:02:49,4.735s,PASSED
+click,Firefox 61.0,Click on Manage menu,2018-07-01 19:02:45,2018-07-01 19:02:45,0.349s,PASSED
+click,Firefox 61.0,Click on Invoivce sub menu,2018-07-01 19:02:45,2018-07-01 19:02:45,0.082s,PASSED
+click,Firefox 61.0,Click on Create invoice link,2018-07-01 19:02:45,2018-07-01 19:02:46,0.673s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:46,2018-07-01 19:02:47,1.107s,PASSED
+click,Firefox 61.0,check box is checked,2018-07-01 19:02:47,2018-07-01 19:02:47,0.311s,PASSED
+setText,Firefox 61.0,Tax name entry,2018-07-01 19:02:47,2018-07-01 19:02:48,0.675s,PASSED
+setText,Firefox 61.0,tax percentage,2018-07-01 19:02:48,2018-07-01 19:02:48,0.185s,PASSED
+setText,Firefox 61.0,text on invoice is entered,2018-07-01 19:02:48,2018-07-01 19:02:48,0.255s,PASSED
+setText,Firefox 61.0,hidden note is added,2018-07-01 19:02:48,2018-07-01 19:02:49,0.381s,PASSED
+click,Firefox 61.0,create button is clicked,2018-07-01 19:02:49,2018-07-01 19:02:49,0.345s,PASSED
+,,,,,,
+Test Cases/4.TearDown/TearDown_TestCase,Firefox 61.0,teardown created data,2018-07-01 19:02:49,2018-07-01 19:03:24,34.745s,FAILED
+click,Firefox 61.0,,2018-07-01 19:02:50,2018-07-01 19:02:50,0.411s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:50,2018-07-01 19:02:51,0.372s,PASSED
+waitForElementVisible,Firefox 61.0,,2018-07-01 19:02:51,2018-07-01 19:02:51,0.380s,PASSED
+click,Firefox 61.0,,2018-07-01 19:02:51,2018-07-01 19:02:51,0.102s,PASSED
+Statement - While (true),Firefox 61.0,,2018-07-01 19:02:51,2018-07-01 19:03:24,32.665s,FAILED
+,,,,,,
+Test Cases/5.Logout/Logout_TestCase,Firefox 61.0,logsout from system,2018-07-01 19:03:24,2018-07-01 19:03:26,1.663s,PASSED
+click,Firefox 61.0,,2018-07-01 19:03:24,2018-07-01 19:03:25,0.348s,PASSED
+click,Firefox 61.0,,2018-07-01 19:03:25,2018-07-01 19:03:25,0.336s,PASSED
+closeBrowser,Firefox 61.0,,2018-07-01 19:03:25,2018-07-01 19:03:26,0.677s,PASSED

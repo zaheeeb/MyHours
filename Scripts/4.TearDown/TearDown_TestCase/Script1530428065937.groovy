@@ -2,6 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.eclipse.persistence.internal.oxm.record.json.JSONParser.value_return as value_return
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
@@ -19,25 +20,32 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'delete invoice'
 WebUI.click(findTestObject('4.Teardown_Object_Repository/button_Delete this invoice'))
 
+'confirm deletion'
 WebUI.click(findTestObject('4.Teardown_Object_Repository/button_Confirm'))
 
 WebUI.waitForElementVisible(findTestObject('4.Teardown_Object_Repository/span_Track'), 1)
 
+'click track menu'
 WebUI.click(findTestObject('4.Teardown_Object_Repository/span_Track'))
 
-while (WebUI.verifyElementPresent(findTestObject('4.Teardown_Object_Repository/td_col-md-2 text-right table-c'), 20) == 
-true) {
-    WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'), 1)
+while (true) {
+    'get button attribute'
+    button = WebUI.getAttribute(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'), 'id')
 
-    WebUI.click(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'))
+    'verify that button value is not null'
+    if (button != null) {
+        WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'), 1)
 
-    WebUI.click(findTestObject('4.Teardown_Object_Repository/button_OK'))
+        'delete hour entry'
+        WebUI.click(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'))
 
-  //  if (WebUI.verifyElementVisible(findTestObject('4.Teardown_Object_Repository/p_No time tracked for this day'), 20) == 
-    //true) {
-      //  break
-    //}
+        'confirm'
+        WebUI.click(findTestObject('4.Teardown_Object_Repository/button_OK'))
+    } else {
+        break
+    }
 }
 
