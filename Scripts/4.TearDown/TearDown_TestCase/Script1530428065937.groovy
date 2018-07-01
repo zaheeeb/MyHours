@@ -23,23 +23,21 @@ WebUI.click(findTestObject('4.Teardown_Object_Repository/button_Delete this invo
 
 WebUI.click(findTestObject('4.Teardown_Object_Repository/button_Confirm'))
 
-WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/span_Track'), 1)
+WebUI.waitForElementVisible(findTestObject('4.Teardown_Object_Repository/span_Track'), 1)
 
 WebUI.click(findTestObject('4.Teardown_Object_Repository/span_Track'))
 
-//while (WebUI.verifyElementPresent(findTestObject('4.Teardown_Object_Repository/td_col-md-2 text-right table-c'), 20) == 
-//true) {
-  //  if (WebUI.verifyElementPresent(findTestObject('4.Teardown_Object_Repository/td_col-md-2 text-right table-c'), 20) == 
-    //false) {
+while (WebUI.verifyElementPresent(findTestObject('4.Teardown_Object_Repository/td_col-md-2 text-right table-c'), 20) == 
+true) {
+    WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'), 1)
+
+    WebUI.click(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'))
+
+    WebUI.click(findTestObject('4.Teardown_Object_Repository/button_OK'))
+
+  //  if (WebUI.verifyElementVisible(findTestObject('4.Teardown_Object_Repository/p_No time tracked for this day'), 20) == 
+    //true) {
       //  break
-    //} else {
-        WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'), 1)
-
-        WebUI.click(findTestObject('4.Teardown_Object_Repository/button_deleteTodayLog'))
-
-        WebUI.waitForElementPresent(findTestObject('4.Teardown_Object_Repository/button_OK'), 1)
-
-        WebUI.click(findTestObject('4.Teardown_Object_Repository/button_OK'))
     //}
-//}
+}
 
