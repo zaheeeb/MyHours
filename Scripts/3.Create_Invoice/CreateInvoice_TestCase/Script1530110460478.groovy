@@ -49,3 +49,4 @@ WebUI.setText(findTestObject('3.CreateInvoice_Object_Repository/textarea_invoice
 'create button is clicked'
 WebUI.click(findTestObject('3.CreateInvoice_Object_Repository/button_Create'))
 
+
