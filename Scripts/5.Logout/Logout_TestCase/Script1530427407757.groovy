@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('4.Logout_Object_Repository/a_Zahir Babur'))
+WebUI.click(findTestObject('5.Logout_Object_Repository/a_Zahir Babur'))
 
-WebUI.click(findTestObject('4.Logout_Object_Repository/a_Sign out'))
+WebUI.click(findTestObject('5.Logout_Object_Repository/a_Sign out'))
 
 WebUI.closeBrowser()
 
