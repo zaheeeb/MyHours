@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MyHours_TestSuite" time="35" tests="5" failures="1" errors="0">
+   <testsuite name="MyHours_TestSuite" tests="5" failures="1" errors="0" time="35" timestamp="2018-07-01 12:51:19" hostname="Zahir - DESKTOP-DH2KCP9.lan" id="Test Suites/MyHours_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180701_125116"/>
+         <property name="logFiles" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180701_125116\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180701_125116\\1530438712977.png"/>
+         <property name="hostName" value="Zahir - DESKTOP-DH2KCP9.lan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.1.80"/>
+         <property name="sessionId" value="69247022-81e3-47cd-9a5c-2eedbd61fdf4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-07-01 12:51:19 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-07-01 12:51:20 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+2018-07-01 12:51:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-07-01 12:51:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-07-01 12:51:29 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+2018-07-01 12:51:29 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-07-01 12:51:29 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-07-01 12:51:29 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-07-01 12:51:30 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - setText: Text 'test1234' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-07-01 12:51:30 - [MESSAGE][PASSED] - Text 'test1234' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.Login_Object_Repository/button_Sign in' is clicked on
+
+2018-07-01 12:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/1.Login_Object_Repository/button_Sign in' is clicked on
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - Statement - switch (varLoginMessage.toString()): null
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - Statement - case "wrong_password":: null
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - Statement - errorMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(1.Login_Object_Repository/div_There was a problem with a)): Text of object 'Object Repository/1.Login_Object_Repository/div_There was a problem with a' is: 'There was a problem with authenticating: Invalid username or password..'
+
+2018-07-01 12:51:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/1.Login_Object_Repository/div_There was a problem with a' is: 'There was a problem with authenticating: Invalid username or password..'
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'true' and expected object 'true' are equal
+
+2018-07-01 12:51:30 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - Statement - Break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/1.Login/Login_TestCase" classname="Test Cases/1.Login/Login_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-07-01 12:51:30 - [TEST_CASE][PASSED] - Test Cases/1.Login/Login_TestCase: Test Cases/1.Login/Login_TestCase
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - Start setup action : setup: Method 'setup' complete successfully
+
+2018-07-01 12:51:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-07-01 12:51:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.myhours.com/#/signin'
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Method 'setup' complete successfully
+
+2018-07-01 12:51:39 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/1.Login_Object_Repository/input_email' is visible
+
+2018-07-01 12:51:39 - [TEST_STEP][PASSED] - setText: Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Text 'zaheeeb@gmail.com' is set on object 'Object Repository/1.Login_Object_Repository/input_email'
+
+2018-07-01 12:51:39 - [TEST_STEP][PASSED] - setText: Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Text 'test12345' is set on object 'Object Repository/1.Login_Object_Repository/input_password'
+
+2018-07-01 12:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/1.Login_Object_Repository/button_Sign in' is clicked on
+
+2018-07-01 12:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/1.Login_Object_Repository/button_Sign in' is clicked on
+
+2018-07-01 12:51:39 - [TEST_STEP][PASSED] - Statement - switch (varLoginMessage.toString()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2.TrackActivity/NewActivity_TestCase" classname="Test Cases/2.TrackActivity/NewActivity_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-07-01 12:51:39 - [TEST_CASE][PASSED] - Test Cases/2.TrackActivity/NewActivity_TestCase: Test Cases/2.TrackActivity/NewActivity_TestCase
+
+2018-07-01 12:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-07-01 12:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right' is clicked on
+
+2018-07-01 12:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-07-01 12:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Project' is clicked on
+
+2018-07-01 12:51:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-07-01 12:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/i_caret pull-right_1' is clicked on
+
+2018-07-01 12:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-07-01 12:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/span_Meeting With Client' is clicked on
+
+2018-07-01 12:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-07-01 12:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-07-01 12:51:44 - [TEST_STEP][PASSED] - setText: Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [MESSAGE][PASSED] - Text '01:00' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-07-01 12:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine' is clicked on
+
+2018-07-01 12:51:45 - [TEST_STEP][PASSED] - setText: Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [MESSAGE][PASSED] - Text '02' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_form-control ng-pristine'
+
+2018-07-01 12:51:45 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-07-01 12:51:45 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/2.NewActivity_Object_Repository/input_addCost'
+
+2018-07-01 12:51:45 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-07-01 12:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is double clicked on
+
+2018-07-01 12:51:46 - [TEST_STEP][PASSED] - setText: Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-07-01 12:51:46 - [MESSAGE][PASSED] - Text 'description' is set on object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou'
+
+2018-07-01 12:51:46 - [TEST_STEP][PASSED] - Statement - attribute = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(2.NewActivity_Object_Repository/textarea_form-control ng-untou), "value"): Attribute 'value' of object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is: 'description'
+
+2018-07-01 12:51:46 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/2.NewActivity_Object_Repository/textarea_form-control ng-untou' is: 'description'
+
+2018-07-01 12:51:46 - [TEST_STEP][PASSED] - Statement - assert attribute == "description": null
+
+2018-07-01 12:51:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on
+
+2018-07-01 12:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/2.NewActivity_Object_Repository/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" classname="Test Cases/3.Create_Invoice/CreateInvoice_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-07-01 12:51:47 - [TEST_CASE][PASSED] - Test Cases/3.Create_Invoice/CreateInvoice_TestCase: Test Cases/3.Create_Invoice/CreateInvoice_TestCase
+
+2018-07-01 12:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' is clicked on
+
+2018-07-01 12:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Manage' is clicked on
+
+2018-07-01 12:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Invoices' is clicked on
+
+2018-07-01 12:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Invoices' is clicked on
+
+2018-07-01 12:51:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Create New Invoice' is clicked on
+
+2018-07-01 12:51:48 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/a_Create New Invoice' is clicked on
+
+2018-07-01 12:51:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/input_ng-pristine ng-untouched' is clicked on
+
+2018-07-01 12:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/input_ng-pristine ng-untouched' is clicked on
+
+2018-07-01 12:51:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/button_Invoice selected' is clicked on
+
+2018-07-01 12:51:49 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/button_Invoice selected' is clicked on
+
+2018-07-01 12:51:49 - [TEST_STEP][PASSED] - setText: Text 'GST' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/input_tax-name'
+
+2018-07-01 12:51:50 - [MESSAGE][PASSED] - Text 'GST' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/input_tax-name'
+
+2018-07-01 12:51:50 - [TEST_STEP][PASSED] - setText: Text '14' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/input_tax-value'
+
+2018-07-01 12:51:50 - [MESSAGE][PASSED] - Text '14' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/input_tax-value'
+
+2018-07-01 12:51:50 - [TEST_STEP][PASSED] - setText: Text 'invoice text' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/textarea_invoice-text'
+
+2018-07-01 12:51:51 - [MESSAGE][PASSED] - Text 'invoice text' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/textarea_invoice-text'
+
+2018-07-01 12:51:51 - [TEST_STEP][PASSED] - setText: Text 'note not show on invoice.' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/textarea_invoice-note'
+
+2018-07-01 12:51:51 - [MESSAGE][PASSED] - Text 'note not show on invoice.' is set on object 'Object Repository/3.CreateInvoice_Object_Repository/textarea_invoice-note'
+
+2018-07-01 12:51:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/3.CreateInvoice_Object_Repository/button_Create' is clicked on
+
+2018-07-01 12:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/3.CreateInvoice_Object_Repository/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4.TearDown/TearDown_TestCase" classname="Test Cases/4.TearDown/TearDown_TestCase" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;a href=&quot;#/time&quot;> is not clickable at point (224.54999542236328,30.800003051757812) because another element &lt;div class=&quot;modal-backdrop fade  in&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)"/>
+         <system-out><![CDATA[2018-07-01 12:51:51 - [TEST_CASE][FAILED] - Test Cases/4.TearDown/TearDown_TestCase: Test Cases/4.TearDown/TearDown_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)
+
+2018-07-01 12:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4.Teardown_Object_Repository/button_Delete this invoice' is clicked on
+
+2018-07-01 12:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Teardown_Object_Repository/button_Delete this invoice' is clicked on
+
+2018-07-01 12:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/4.Teardown_Object_Repository/button_Confirm' is clicked on
+
+2018-07-01 12:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/4.Teardown_Object_Repository/button_Confirm' is clicked on
+
+2018-07-01 12:51:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)
+
+2018-07-01 12:51:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)
+[[ATTACHMENT|C:\\Users\\Zahir\\Katalon Studio\\MyHours_Assignment\\Reports\\MyHours_TestSuite\\20180701_125116\\1530438712977.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-01 12:51:51 - [TEST_CASE][FAILED] - Test Cases/4.TearDown/TearDown_TestCase: Test Cases/4.TearDown/TearDown_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/5.Logout/Logout_TestCase" classname="Test Cases/5.Logout/Logout_TestCase" status="PASSED">
+         <system-out><![CDATA[2018-07-01 12:51:53 - [TEST_CASE][PASSED] - Test Cases/5.Logout/Logout_TestCase: Test Cases/5.Logout/Logout_TestCase
+
+2018-07-01 12:51:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/5.Logout_Object_Repository/a_Zahir Babur' is clicked on
+
+2018-07-01 12:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/5.Logout_Object_Repository/a_Zahir Babur' is clicked on
+
+2018-07-01 12:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/5.Logout_Object_Repository/a_Sign out' is clicked on
+
+2018-07-01 12:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/5.Logout_Object_Repository/a_Sign out' is clicked on
+
+2018-07-01 12:51:54 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-01 12:51:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-01 12:51:19 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/4.TearDown/TearDown_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)]]></system-out>
+      <system-err><![CDATA[2018-07-01 12:51:19 - [TEST_SUITE][FAILED] - MyHours_TestSuite: Test Cases/4.TearDown/TearDown_TestCase FAILED because (of) Unable to click on object 'Object Repository/4.Teardown_Object_Repository/span_Track' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <a href="#/time"> is not clickable at point (224.54999542236328,30.800003051757812) because another element <div class="modal-backdrop fade  in"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-DH2KCP9', ip: '192.168.1.80', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\Zahir\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 69247022-81e3-47cd-9a5c-2eedbd61fdf4)]]></system-err>
+   </testsuite>
+</testsuites>
